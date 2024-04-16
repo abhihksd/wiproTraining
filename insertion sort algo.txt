@@ -1,0 +1,7 @@
+1. for i->1 to length of array
+2. k=arr[i]
+3. j=i-1
+4. while j>=0 and arr[j]>k
+5. arr[j+1]=arr[j]
+6. j=j-1
+7. arr[j+1]=k
