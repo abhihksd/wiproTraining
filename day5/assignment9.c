@@ -17,7 +17,7 @@ int main()
     {
         for(int j=n-i;j>0;j--)
         {
-            printf("_");
+            printf(" ");
         }
         for(int k=0;k<=i;k++)
         {
