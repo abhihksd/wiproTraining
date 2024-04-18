@@ -7,9 +7,9 @@ int main()
     for(int i=0;i<=50;i++)
     {
         if(i%2==0)
-        even+=i;
+            even+=i;
         else
-        odd+=i;
+            odd+=i;
     }
     printf("sum of even numbers: %d and odd numbers is: %d ",even, odd);
 }

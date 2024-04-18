@@ -2,7 +2,7 @@
 int main()
 {
     int n=0;
-    printf("enter size of triangle");
+    printf("enter size of pyramid");
     scanf("%d",&n);
     for(int i=0;i<=n;i++)
     {

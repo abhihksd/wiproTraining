@@ -4,6 +4,8 @@
 int main()
 {
     int n=8;
+    printf("enter size of triangle");
+    scanf("%d",&n);
     for(int i=0;i<n;i++)
     {
         int power=pow(2,i);
