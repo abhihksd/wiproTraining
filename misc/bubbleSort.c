@@ -12,7 +12,7 @@ int main()
     printf("\nBefore Sorting List of Elements\n");
     dispList(a,n);
     //logic
-    i = 1;
+    i = 0;
 
     while(i < n) // outer loop i iteration
     {
