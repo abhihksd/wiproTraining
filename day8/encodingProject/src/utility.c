@@ -5,7 +5,7 @@
 #include<utility.h>
 
 //defining the methods here
-char* encoding(const char* s) {
+char* encoding( char* s) {
     if (s == NULL || *s == '\0') {
         return NULL;
     }
@@ -36,5 +36,5 @@ char* encoding(const char* s) {
 }
 void display(char * string)
 {
-    printf("The encoded string is: %s",string);
+    printf("The encoded string is: %s\n",string);
 }

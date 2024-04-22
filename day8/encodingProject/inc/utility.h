@@ -1,4 +1,4 @@
 #ifndef UTILITY_H
-char* encoding(const char*);
+char* encoding( char*);
 void display(char *);
 #endif 
